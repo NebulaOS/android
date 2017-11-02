@@ -1,0 +1,23 @@
+<p align="center">
+<img src="https://github.com/NebulaOS/Android/blob/nebula-n/SmallLogoNebulaOS.png" > 
+</p>
+Getting Started
+---------------
+
+To get started with Android/NebulaOS, you'll need to get
+familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+
+To initialize your local repository using the NebulaOS trees, use a command like this:
+
+For Qualcomm:
+    repo init -u git://github.com/NebulaOS/android.git -b nebula-n
+	
+For Mediatek based on Marshmallow kernel and blobs:
+    repo init -u git://github.com/NebulaOS/android.git -b nebula-n-mtk-m
+	
+For Mediatek based on Nougat kernel and blobs:
+    repo init -u git://github.com/NebulaOS/android.git -b nebula-n-mtk-n
+
+Then to sync up:
+
+    repo sync
